@@ -34,3 +34,28 @@ after successfull signup
 
 goto Products
 <img src="Screenshorts/Screenshot_product.png">
+
+click on add product
+<img src="Screenshorts/Screenshot_Add_product.png">
+
+Add product validation
+<img src="Screenshorts/Screenshot_Add_Product_validation.png">
+
+get message
+<img src="Screenshorts/Screenshot_Added_Success.png">
+
+if you want to edit then click on edit button
+<img src="Screenshorts/Screenshot_Edit.png">
+
+if you want to delete then click on delete button
+<img src="Screenshorts/Screenshot_Delete.png">
+
+<img src="Screenshorts/Screenshot_Delete_Success.png">
+ 
+After adding some product
+<img src="Screenshorts/Screenshot_Product_page.png">
+
+<img src="Screenshorts/Screenshot_Product_page_Tips.jpg">
+
+After adding some product Home Page look
+<img src="Screenshorts/Screenshot_Home_With_Product.png">
