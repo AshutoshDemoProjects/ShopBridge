@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "608e25ec72051e1c70bdc102"
+  },
+  "name": "Archer C6",
+  "description": "Dual Band WiFi speed —— Simultaneous 2.4GHz 300 Mbps and 5GHz 867 Mbps connections for 1200 Mbps of total available bandwidth; supports 802.11ac standard\nUltimate Range Wi-Fi —— 4 external antennas and one internal antenna provide stable wireless connections and optimal coverage\nQualcomm Chipset —— High-Performance Chipset provides an excellent connection experience\nMU-MIMO —— MU-MIMO achieves 2X efficiency by communicating with up to 2 devices at once\nGigabit Ports —— With one Gigabit WAN port and four Gigabit LAN port, speeds can be up to 10× faster than standard Ethernet connections. Connect your favorite wired devices to the Archer C6 and get impressed",
+  "image": "/uploads\\1619928552661.jpg",
+  "brand": "TP-Link",
+  "quantity": 100,
+  "price": 2500,
+  "createdAt": {
+    "$date": "2021-05-02T04:09:16.991Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-02T04:09:16.991Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608e268872051e1c70bdc103"
+  },
+  "name": "WD Green 120",
+  "description": "Western Digital WD Green 120 GB 2.5 inch SATA III Internal Solid State Drive (WDS120G2G0A) ",
+  "image": "/uploads\\1619928711088.jpg",
+  "brand": "Western Digital",
+  "quantity": 100,
+  "price": 2300,
+  "createdAt": {
+    "$date": "2021-05-02T04:11:52.614Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-02T04:11:52.614Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608e273972051e1c70bdc104"
+  },
+  "name": "Corsair Vengeance 8GB DDR3 Memory Kit",
+  "description": "Designed for stability, stringently factory-tested\nBacked by limited lifetime warranty\nOptimized for compatibility with the latest CPUs and motherboards\nVengeance memory supports the Intel XMP (Extreme Memory Profile) standard\nXMP memory profile for simple, safe overclocking\nHeat Spreader: Vengeance; Memory Configuration: Quad Channel\nSPD Latency: 9-9-9-24; SPD Speed: 1333MHz; SPD Voltage: 1.5V , Tested Speed :1600MHz , Package Memory Pin: 240\nLifetime Warranty(Max 10 Years)",
+  "image": "/uploads\\1619928887615.jpg",
+  "brand": "Corsair Vengeance",
+  "quantity": 400,
+  "price": 3800,
+  "createdAt": {
+    "$date": "2021-05-02T04:14:49.093Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-02T04:14:49.093Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608e2c0a72051e1c70bdc105"
+  },
+  "name": "X1000 Wired Mouse",
+  "description": "3 buttons improve productivity\nOptical sensor works on most surfaces\nThe sleek and modern HP Mouse X1000 adds an instant touch of trend-setting style to any work space\nGlossy black and metallic gray shine with sophistication\n1 year warranty",
+  "image": "/uploads\\1619930121142.jpg",
+  "brand": "HP",
+  "quantity": 600,
+  "price": 350,
+  "createdAt": {
+    "$date": "2021-05-02T04:35:22.607Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-02T04:35:22.607Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608e2d0272051e1c70bdc106"
+  },
+  "name": "Deskjet Plus Ink Efficient 6075",
+  "description": "WiFi Colour Printer, Scanner and Copier for Home/Small Office, Dual Band WiFi, Duplex (Automatic Double-Sided Print),Easy Set-up Through HP Smart App on Your Mobile",
+  "image": "/uploads\\1619930338726.jpg",
+  "brand": "HP",
+  "quantity": 123,
+  "price": 8499,
+  "createdAt": {
+    "$date": "2021-05-02T04:39:30.033Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-02T04:39:30.033Z"
+  },
+  "__v": 0
+}]
