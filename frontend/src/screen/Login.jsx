@@ -79,7 +79,7 @@ export default function Login(props) {
                     <Button type="submit" variant="contained" color="primary" disabled={loading} className={styles.button} fullWidth >{loading && <CircularProgress />}Sign In</Button>
                 </Form>
                 <Typography>
-                    Ferget password? <Link to="register">Click Here</Link>
+                    Forget password? <Link to="register">Click Here</Link>
                 </Typography>
                 <Typography>
                     Don't you have a account? <Link to="register">SignUp</Link>

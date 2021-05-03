@@ -106,7 +106,7 @@ export default function Products() {
                     }} />
                     <Button onClick={() => { setOpenPopup(true); setRecordForEdit(null); }} className={styles.newButton} text='Add New' startIcon={<Add />} >Add New Product</Button>
                 </Toolbar>
-                <TblContainer>
+                {products?.length !== 0 && <><TblContainer>
                     <TblHead />
                     <TableBody>
                         {products?.length > 0 && recordsAfterPagingAndSorting().map(prod => (
@@ -132,7 +132,7 @@ export default function Products() {
                         ))}
                     </TableBody>
                 </TblContainer>
-                <TblPagination />
+                <TblPagination /></>}
                 <Popup title="Product Form" openPopup={openPopup} setOpenPopup={setOpenPopup}>
                     <ProductForm recordForEdit={recordForEdit} addOrEdit={addOrEdit} />
                 </Popup>

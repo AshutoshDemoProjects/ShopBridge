@@ -8,11 +8,12 @@ import {
     USER_SIGNOUT,
 } from '../constants/userConstants';
 import Axios from 'axios';
-
+import{baseUrl} from '../../utilConstants';
+//const baseUrl="http://localhost:5000";
 export const signinAction = (user) => async (dispatch) => {
     dispatch({ type: USER_SIGNIN_REQUEST, payload: user });
     try {
-        const { data } = await Axios.post('/api/users/signin', user);
+        const { data } = await Axios.post(`${baseUrl}/api/users/signin`, user);
         dispatch({ type: USER_SIGNIN_SUCCESS, payload: data });
         localStorage.setItem('userInfo', JSON.stringify(data));
     } catch (error) {
@@ -27,7 +28,7 @@ export const signinAction = (user) => async (dispatch) => {
 export const registerAction = (name, email, password) => async (dispatch) => {
     dispatch({ type: USER_REGISTER_REQUEST, payload: { name, email, password } });
     try {
-        const { data } = await Axios.post('/api/users/register', { name, email, password });
+        const { data } = await Axios.post(`${baseUrl}/api/users/register`, { name, email, password });
         dispatch({ type: USER_REGISTER_SUCCESS, payload: data });
         dispatch({ type: USER_SIGNIN_SUCCESS, payload: data });
         localStorage.setItem('userInfo', JSON.stringify(data));

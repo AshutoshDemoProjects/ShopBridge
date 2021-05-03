@@ -2,7 +2,7 @@ import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { listProductsAction } from '../redux/action/productAction';
-
+import {baseUrl} from '../utilConstants';
 const useStyles = makeStyles(theme => ({
     root: {
         maxWidth: 345,
@@ -29,7 +29,7 @@ export default function Home() {
                             <CardMedia
                                 component="img"
                                 className={styles.media}
-                                image={prod.image}
+                                image={baseUrl+prod.image}
                                 title={prod.name}
                             />
                             <CardContent>

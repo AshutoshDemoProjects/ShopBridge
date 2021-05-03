@@ -4,7 +4,7 @@ import { Form, useForm } from './../../components/useForm';
 import { Controls } from './../../components/controls/index';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
-
+import{baseUrl} from '../../utilConstants';
 /***********this is initial form state for new product***************/
 const initialFormValues = {
     _id: 0,
@@ -71,7 +71,7 @@ export default function ProductForm(props) {
         const bodyFormData = new FormData();
         bodyFormData.append('image', file);
         try {
-            const { data } = await axios.post('/api/uploads', bodyFormData, {
+            const { data } = await axios.post(`${baseUrl}/api/uploads`, bodyFormData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                     Authorization: `Bearer ${userInfo.token}`,
