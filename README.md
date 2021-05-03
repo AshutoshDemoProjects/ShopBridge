@@ -53,9 +53,9 @@ if you want to delete then click on delete button
 <img src="Screenshorts/Screenshot_Delete_Success.png">
  
 After adding some product
-<img src="Screenshorts/Screenshot_Product_page.png">
+<img src="Screenshorts/Screenshot_Product_Page.png">
 
-<img src="Screenshorts/Screenshot_Product_page_Tips.jpg">
+<img src="Screenshorts/Screenshot_Product_Page_Tips.jpg">
 
 After adding some product Home Page look
 <img src="Screenshorts/Screenshot_Home_With_Product.png">
